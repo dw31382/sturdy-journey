@@ -1,0 +1,9 @@
+mov eax 1
+mov ebx 2
+mul eax ebx
+cmp eax 32
+jne 2
+push ebx
+push 6
+push 3
+pop
